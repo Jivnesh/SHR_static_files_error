@@ -1167,7 +1167,7 @@ function myfunc(){
     // go_to_pos(words);
     var line = words.join(" ")
     var url = "http://cnerg.iitkgp.ac.in/tramp/predict?sen="+line+"&in=IAST&out=Devanagari"+"/"
-//     var url = "http://172.29.92.118:4000/predict?sen="+line+"&in=IAST&out=Devanagari"
+    // var url = "http://172.29.92.118:4000/predict?sen="+line+"&in=IAST&out=Devanagari"
     window.open(url, '_blank')
 
     // var final_data = extract_tags(words);
